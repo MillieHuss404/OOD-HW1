@@ -11,7 +11,15 @@ namespace OOD_HW1
             Square square1 = new Square();
             square1.Length = 12;
 
+            Console.WriteLine($"Length Square 1 of is {square1.Length}.");
+            Console.WriteLine($"Perimeter is {square1.CalculatePerimeter()}");
+            Console.WriteLine($"Area is {square1.CalculateArea()}");
+
             Square square2 = new Square(20);
+
+            Console.WriteLine($"Length Square 2 of is {square2.Length}.");
+            Console.WriteLine($"Perimeter is {square2.CalculatePerimeter()}");
+            Console.WriteLine($"Area is {square2.CalculateArea()}");
 
             Triangle triangle1 = new Triangle();
             triangle1.Base = 6;
@@ -21,7 +29,7 @@ namespace OOD_HW1
 
             Triangle triangle2 = new Triangle(12, 10, 15, 9);
 
-
+           
         }
     }
 }
